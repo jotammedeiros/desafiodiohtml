@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+  
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Página Principal</a></li>
+                <li><a href="sobrenos.html">A clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento </a></li>
+                <li><a href="contatos.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header"> 
+                <img src="Imagens/contatos.png" alt="" >            
+                
+            </div>
+    
+            <div class="contentcont">
+                <ul class="endereco">
+                    <li><strong>Endereço:</strong>Rua do emperador,364.</li>
+                    <li><strong>Telefone/what'sapp:</strong>(00) 9999-0000</li>
+                    <li><strong>E-mail:</strong>jotaondoto@clinica.com.br</li>
+                </ul>
+                <br>
+                <h1 style=" color: #032d55; " >Endereço no Google Maps</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8520305086563!2d-43.17760162389874!3d-22.50973422380313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a800ac3018db%3A0xf909972e9a441117!2sRua%20do%20Imperador%20-%20Centro%2C%20Petr%C3%B3polis%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1733854968888!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" margin-bottom ="100px" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                
+                <form action="processa_formulario.php" method="post">
+                    <h1 style="justify-self:center;">Formulário de Contato</h1>
+                    <h3 style="justify-self:center;">Deixe seu elogio,tire dúvidas ou faça reclamações</h3>
+                    <br>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+                
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                  </form>
+                
+            </div>
+    
+            <div class="footer">
+                <img src="Imagens/Design_sem_nome-removebg-preview.png">
+                <h3>Jota Odontologia</h3>
+                <ul>
+                    <li><strong>Endereço:</strong>Rua do emperador,364.</li>
+                    <li><strong>Telefone:</strong>(00) 9999-0000</li>
+                    <li><strong>E-mail:</strong>jotaondoto@clinica.com.br</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
